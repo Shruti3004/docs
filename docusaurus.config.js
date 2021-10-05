@@ -25,6 +25,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
             // Please change this to your repo.
             editUrl:
               "https://github.com/facebook/docusaurus/edit/main/website/",
+            remarkPlugins: [require('mdx-mermaid')]
           },
           blog: {
             showReadingTime: true,
